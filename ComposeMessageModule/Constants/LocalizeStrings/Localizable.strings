@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  ComposeMessageModule
+
+  Created by NupurMac on 17/05/18.
+  Copyright © 2018 ShubhamMac. All rights reserved.
+*/
+
+
+/* Alert Button */
+"Settings" = "Settings";
+
+"Camera" = "Camera";
+"Gallery" = "Gallery";
+
+"Ok" = "OK";
+"Cancel" = "Cancel";
+"Update" = "Update";
+"Skip" = "Skip";
+"Next" = "NEXT";
+"Reapply" = "REAPPLY";
+"Status" = "Status";
+"Approved" = "Approved";
+"Rejected" = "Rejected";
+"Pending" = "Pending";
+"Clear" = "Clear";
+"Proceed"  = "Proceed";
+"Alert" = "Alert";
+"Done" = "Done";
+"Cancel" = "Cancel";
+
+
+"SettingsCameraApp" = "Camera permissions need to be allowed to capture an image using camera . Please allow Camera Permissions from settings.";
+"SettingsGalleryApp" = "Gallery permissions need to be allowed to pick an image from gallery . Please allow Photo Permissions from settings.";
+

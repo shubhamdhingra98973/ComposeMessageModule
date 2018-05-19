@@ -1,0 +1,6 @@
+framework module Pods_ComposeMessageModule {
+  umbrella header "Pods-ComposeMessageModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
