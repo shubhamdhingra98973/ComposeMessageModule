@@ -165,7 +165,7 @@ struct R: Rswift.Validatable {
     fileprivate init() {}
   }
   
-  /// This `R.image` struct is generated, and contains static references to 191 images.
+  /// This `R.image` struct is generated, and contains static references to 194 images.
   struct image {
     /// Image `Achievemets1`.
     static let achievemets1 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Achievemets1")
@@ -345,12 +345,18 @@ struct R: Rswift.Validatable {
     static let pdF = Rswift.ImageResource(bundle: R.hostingBundle, name: "PDF")
     /// Image `Path 2644`.
     static let path2644 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Path 2644")
+    /// Image `Pause`.
+    static let pause = Rswift.ImageResource(bundle: R.hostingBundle, name: "Pause")
     /// Image `Photogallery Thumb`.
     static let photogalleryThumb = Rswift.ImageResource(bundle: R.hostingBundle, name: "Photogallery Thumb")
     /// Image `Photos1`.
     static let photos1 = Rswift.ImageResource(bundle: R.hostingBundle, name: "Photos1")
     /// Image `Photos_new`.
     static let photos_new = Rswift.ImageResource(bundle: R.hostingBundle, name: "Photos_new")
+    /// Image `Play Timeline`.
+    static let playTimeline = Rswift.ImageResource(bundle: R.hostingBundle, name: "Play Timeline")
+    /// Image `Play`.
+    static let play = Rswift.ImageResource(bundle: R.hostingBundle, name: "Play")
     /// Image `Plus`.
     static let plus = Rswift.ImageResource(bundle: R.hostingBundle, name: "Plus")
     /// Image `Post Answers`.
@@ -995,6 +1001,11 @@ struct R: Rswift.Validatable {
       return UIKit.UIImage(resource: R.image.path2644, compatibleWith: traitCollection)
     }
     
+    /// `UIImage(named: "Pause", bundle: ..., traitCollection: ...)`
+    static func pause(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.pause, compatibleWith: traitCollection)
+    }
+    
     /// `UIImage(named: "Photogallery Thumb", bundle: ..., traitCollection: ...)`
     static func photogalleryThumb(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.photogalleryThumb, compatibleWith: traitCollection)
@@ -1008,6 +1019,16 @@ struct R: Rswift.Validatable {
     /// `UIImage(named: "Photos_new", bundle: ..., traitCollection: ...)`
     static func photos_new(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
       return UIKit.UIImage(resource: R.image.photos_new, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Play Timeline", bundle: ..., traitCollection: ...)`
+    static func playTimeline(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.playTimeline, compatibleWith: traitCollection)
+    }
+    
+    /// `UIImage(named: "Play", bundle: ..., traitCollection: ...)`
+    static func play(compatibleWith traitCollection: UIKit.UITraitCollection? = nil) -> UIKit.UIImage? {
+      return UIKit.UIImage(resource: R.image.play, compatibleWith: traitCollection)
     }
     
     /// `UIImage(named: "Plus", bundle: ..., traitCollection: ...)`

@@ -15,7 +15,7 @@ target 'ComposeMessageModule' do
     pod 'Toaster'
     pod 'NVActivityIndicatorView'
     pod 'RMMapper'
-    pod 'Material'
+    #pod 'Material'
     pod 'IQKeyboardManager'
     pod 'IBAnimatable'
     

@@ -165,20 +165,36 @@ extension UIImage {
     }
     
     
-    //convertImageToByteArray
+//    //convertImageToByteArray
+//    func covertImageToByteArray() -> String {
+//
+//        let base64String = self.convertImageToBase64()
+//        let bytes = base64String.utf8.description
+//
+//        // Get the String.UTF8View.
+//       // let bytes = base64String.utf8
+//
+////        //convert into byte array
+////        var buffer = [UInt8](bytes)
+////        buffer[0] = buffer[0] + UInt8(1)
+////
+//        return bytes
+//
+//    }
+//
     func covertImageToByteArray() -> [UInt8] {
-        
+
         let base64String = self.convertImageToBase64()
-        
+
         // Get the String.UTF8View.
         let bytes = base64String.utf8
-        
+
         //convert into byte array
         var buffer = [UInt8](bytes)
         buffer[0] = buffer[0] + UInt8(1)
-        
+
         return buffer
-        
+
     }
 }
 

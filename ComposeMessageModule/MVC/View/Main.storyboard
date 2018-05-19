@@ -103,14 +103,14 @@
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Browse Flyer Message" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H4V-Mg-Vl0">
-                                        <rect key="frame" x="10" y="-9.5" width="213.5" height="19.5"/>
+                                        <rect key="frame" x="10" y="-9" width="213.5" height="19.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Regular" family="Ubuntu" pointSize="17"/>
                                         <color key="textColor" red="0.80784313730000001" green="0.80784313730000001" blue="0.80784313730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Bz-hT-4xs" customClass="AnimatableButton" customModule="IBAnimatable">
-                                        <rect key="frame" x="239.5" y="-16.5" width="87.5" height="35"/>
+                                        <rect key="frame" x="239.5" y="-17" width="87.5" height="35"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="35" id="49U-vb-At8"/>
                                             <constraint firstAttribute="width" secondItem="0Bz-hT-4xs" secondAttribute="height" multiplier="2.5:1" id="6wd-ML-OcV"/>
@@ -196,7 +196,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="abh-nV-kif" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-20" y="760.56971514242889"/>
+            <point key="canvasLocation" x="-109" y="985"/>
         </scene>
         <!--Audio View Controller-->
         <scene sceneID="4zb-QJ-8Pu">
@@ -252,7 +252,7 @@
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
                                     </button>
-                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b89-5c-Pta" customClass="AnimatableButton" customModule="ComposeMessageModule" customModuleProvider="target">
+                                    <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="b89-5c-Pta" customClass="AnimatableButton" customModule="IBAnimatable">
                                         <rect key="frame" x="112.5" y="0.0" width="112.5" height="32"/>
                                         <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" name="Ubuntu-Medium" family="Ubuntu" pointSize="13"/>
@@ -490,7 +490,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="h21-cD-yDr" secondAttribute="centerY" id="2cw-uH-iOy"/>
                             <constraint firstItem="OgE-jG-AGM" firstAttribute="leading" secondItem="tuG-SC-Xo5" secondAttribute="leading" constant="16" id="IeA-PK-zxa"/>
@@ -502,14 +502,14 @@
                         <viewLayoutGuide key="safeArea" id="tuG-SC-Xo5"/>
                     </view>
                     <connections>
+                        <outlet property="btnPlayPause" destination="BBq-YS-U3i" id="tow-kB-fNr"/>
                         <outlet property="indicator" destination="MJx-Jz-oef" id="5ka-eY-P88"/>
-                        <outlet property="playPauseButton" destination="BBq-YS-U3i" id="LEp-jH-bXN"/>
                         <outlet property="slider" destination="C48-Hy-OOt" id="dFj-ye-Htu"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b1t-ra-dOd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="23" y="173"/>
+            <point key="canvasLocation" x="90" y="108"/>
         </scene>
     </scenes>
     <resources>

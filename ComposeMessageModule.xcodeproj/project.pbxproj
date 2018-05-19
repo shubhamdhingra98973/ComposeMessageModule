@@ -11,6 +11,8 @@
 		A022E80020ABE52E002660A3 /* Pods_ComposeMessageModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFF832402473703218B3E18 /* Pods_ComposeMessageModule.framework */; };
 		A022E80120ABE52E002660A3 /* Pods_ComposeMessageModule.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 4AFF832402473703218B3E18 /* Pods_ComposeMessageModule.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		A022E80D20ABEBD2002660A3 /* SJSegmentedScrollView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A022E80C20ABEBD2002660A3 /* SJSegmentedScrollView.framework */; };
+		A0786A8220AFDC4F006B909B /* AZSoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A0786A7E20AFDC4F006B909B /* AZSoundItem.m */; };
+		A0786A8320AFDC4F006B909B /* AZSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0786A8020AFDC4F006B909B /* AZSoundManager.m */; };
 		A09681FA20ABF81800FC0A30 /* AudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09681F520ABF81800FC0A30 /* AudioViewController.swift */; };
 		A09681FB20ABF81800FC0A30 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09681F620ABF81800FC0A30 /* ImageViewController.swift */; };
 		A09681FC20ABF81800FC0A30 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09681F720ABF81800FC0A30 /* TextViewController.swift */; };
@@ -35,10 +37,6 @@
 		A096824120AC06B500FC0A30 /* FCAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096823E20AC06B500FC0A30 /* FCAlertView.swift */; };
 		A096824220AC06B500FC0A30 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096823F20AC06B500FC0A30 /* Colors.swift */; };
 		A096824320AC06B500FC0A30 /* FCAlertViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A096824020AC06B500FC0A30 /* FCAlertViewDelegate.swift */; };
-		A0A00D0620AEE35C0026FA09 /* Jukebox.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A00D0120AEE35C0026FA09 /* Jukebox.swift */; };
-		A0A00D0720AEE35C0026FA09 /* AZSoundItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A00D0320AEE35C0026FA09 /* AZSoundItem.m */; };
-		A0A00D0820AEE35C0026FA09 /* JukeboxItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A00D0420AEE35C0026FA09 /* JukeboxItem.swift */; };
-		A0A00D0920AEE35C0026FA09 /* AZSoundManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A00D0520AEE35C0026FA09 /* AZSoundManager.m */; };
 		A0A00D0C20AEE39B0026FA09 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A00D0B20AEE39A0026FA09 /* ViewExtension.swift */; };
 		A0A00D0F20AEE48A0026FA09 /* AudioPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0A00D0E20AEE48A0026FA09 /* AudioPlayerViewController.swift */; };
 		A0D74F2520AD422A007E959B /* IBAnimatable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D74F2420AD422A007E959B /* IBAnimatable.framework */; };
@@ -80,6 +78,11 @@
 		8D80A47193008EDA5AA237A9 /* Pods-ComposeMessageModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ComposeMessageModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ComposeMessageModule/Pods-ComposeMessageModule.debug.xcconfig"; sourceTree = "<group>"; };
 		A01503F420AD3E02006EBA5B /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		A022E80C20ABEBD2002660A3 /* SJSegmentedScrollView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SJSegmentedScrollView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0786A7D20AFDC4F006B909B /* AZSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSoundManager.h; sourceTree = "<group>"; };
+		A0786A7E20AFDC4F006B909B /* AZSoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSoundItem.m; sourceTree = "<group>"; };
+		A0786A7F20AFDC4F006B909B /* ComposeMessageModule-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComposeMessageModule-Bridging-Header.h"; sourceTree = "<group>"; };
+		A0786A8020AFDC4F006B909B /* AZSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSoundManager.m; sourceTree = "<group>"; };
+		A0786A8120AFDC4F006B909B /* AZSoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSoundItem.h; sourceTree = "<group>"; };
 		A09681F520ABF81800FC0A30 /* AudioViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioViewController.swift; sourceTree = "<group>"; };
 		A09681F620ABF81800FC0A30 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		A09681F720ABF81800FC0A30 /* TextViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
@@ -104,13 +107,6 @@
 		A096823E20AC06B500FC0A30 /* FCAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCAlertView.swift; sourceTree = "<group>"; };
 		A096823F20AC06B500FC0A30 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		A096824020AC06B500FC0A30 /* FCAlertViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FCAlertViewDelegate.swift; sourceTree = "<group>"; };
-		A0A00CFE20AEE35B0026FA09 /* ComposeMessageModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComposeMessageModule-Bridging-Header.h"; sourceTree = "<group>"; };
-		A0A00D0020AEE35C0026FA09 /* AZSoundManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSoundManager.h; sourceTree = "<group>"; };
-		A0A00D0120AEE35C0026FA09 /* Jukebox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Jukebox.swift; sourceTree = "<group>"; };
-		A0A00D0220AEE35C0026FA09 /* AZSoundItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AZSoundItem.h; sourceTree = "<group>"; };
-		A0A00D0320AEE35C0026FA09 /* AZSoundItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSoundItem.m; sourceTree = "<group>"; };
-		A0A00D0420AEE35C0026FA09 /* JukeboxItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JukeboxItem.swift; sourceTree = "<group>"; };
-		A0A00D0520AEE35C0026FA09 /* AZSoundManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AZSoundManager.m; sourceTree = "<group>"; };
 		A0A00D0B20AEE39A0026FA09 /* ViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		A0A00D0E20AEE48A0026FA09 /* AudioPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayerViewController.swift; sourceTree = "<group>"; };
 		A0D74F2420AD422A007E959B /* IBAnimatable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = IBAnimatable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -166,6 +162,18 @@
 				A01503F420AD3E02006EBA5B /* Enums.swift */,
 			);
 			path = Enums;
+			sourceTree = "<group>";
+		};
+		A0786A7C20AFDC4F006B909B /* AZSoundManager */ = {
+			isa = PBXGroup;
+			children = (
+				A0786A7D20AFDC4F006B909B /* AZSoundManager.h */,
+				A0786A7E20AFDC4F006B909B /* AZSoundItem.m */,
+				A0786A7F20AFDC4F006B909B /* ComposeMessageModule-Bridging-Header.h */,
+				A0786A8020AFDC4F006B909B /* AZSoundManager.m */,
+				A0786A8120AFDC4F006B909B /* AZSoundItem.h */,
+			);
+			path = AZSoundManager;
 			sourceTree = "<group>";
 		};
 		A09681F420ABF81800FC0A30 /* ComposeMsgTypeController */ = {
@@ -269,7 +277,7 @@
 		A096823C20AC06A100FC0A30 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				A0A00CFD20AEE34E0026FA09 /* JukeBox */,
+				A0786A7C20AFDC4F006B909B /* AZSoundManager */,
 				A096823D20AC06B500FC0A30 /* AlertView */,
 			);
 			path = Libraries;
@@ -290,20 +298,6 @@
 			children = (
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		A0A00CFD20AEE34E0026FA09 /* JukeBox */ = {
-			isa = PBXGroup;
-			children = (
-				A0A00D0220AEE35C0026FA09 /* AZSoundItem.h */,
-				A0A00D0320AEE35C0026FA09 /* AZSoundItem.m */,
-				A0A00D0020AEE35C0026FA09 /* AZSoundManager.h */,
-				A0A00D0520AEE35C0026FA09 /* AZSoundManager.m */,
-				A0A00D0120AEE35C0026FA09 /* Jukebox.swift */,
-				A0A00D0420AEE35C0026FA09 /* JukeboxItem.swift */,
-				A0A00CFE20AEE35B0026FA09 /* ComposeMessageModule-Bridging-Header.h */,
-			);
-			path = JukeBox;
 			sourceTree = "<group>";
 		};
 		A0A00D0A20AEE39A0026FA09 /* Extensions */ = {
@@ -547,8 +541,6 @@
 				"${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework",
 				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
 				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
-				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
-				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/NVActivityIndicatorView/NVActivityIndicatorView.framework",
 				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
 				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
@@ -564,8 +556,6 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/EZSwiftExtensions.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/NVActivityIndicatorView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
@@ -621,8 +611,8 @@
 			files = (
 				A0F3114F20AADD6F003347F8 /* AppDelegate.swift in Sources */,
 				A096823120AC047100FC0A30 /* Messages.swift in Sources */,
+				A0786A8220AFDC4F006B909B /* AZSoundItem.m in Sources */,
 				A09681FB20ABF81800FC0A30 /* ImageViewController.swift in Sources */,
-				A0A00D0820AEE35C0026FA09 /* JukeboxItem.swift in Sources */,
 				A096822B20AC047100FC0A30 /* UserSingleton.swift in Sources */,
 				A096820C20ABFEF400FC0A30 /* APIConstants.swift in Sources */,
 				A096823720AC047100FC0A30 /* AlertsClass.swift in Sources */,
@@ -633,10 +623,9 @@
 				A0F3113A20AADD14003347F8 /* ComposeMessageModule.xcdatamodeld in Sources */,
 				A09681FC20ABF81800FC0A30 /* TextViewController.swift in Sources */,
 				A096823B20AC047100FC0A30 /* UnWrap.swift in Sources */,
+				A0786A8320AFDC4F006B909B /* AZSoundManager.m in Sources */,
 				A096820D20ABFEF400FC0A30 /* APIManager.swift in Sources */,
-				A0A00D0920AEE35C0026FA09 /* AZSoundManager.m in Sources */,
 				A096824120AC06B500FC0A30 /* FCAlertView.swift in Sources */,
-				A0A00D0620AEE35C0026FA09 /* Jukebox.swift in Sources */,
 				A096820320ABF86000FC0A30 /* BaseViewController.swift in Sources */,
 				A096823220AC047100FC0A30 /* ParamKeys.swift in Sources */,
 				A096820A20ABFEF400FC0A30 /* HTTPClient.swift in Sources */,
@@ -650,7 +639,6 @@
 				A09681FD20ABF81800FC0A30 /* ComposeMsgViewController.swift in Sources */,
 				A096823A20AC047100FC0A30 /* DatePickerDialog.swift in Sources */,
 				A096823820AC047100FC0A30 /* Utility.swift in Sources */,
-				A0A00D0720AEE35C0026FA09 /* AZSoundItem.m in Sources */,
 				A096820E20ABFEF400FC0A30 /* APIHandler.swift in Sources */,
 				A096820020ABF83000FC0A30 /* HeaderViewController.swift in Sources */,
 				A096820B20ABFEF400FC0A30 /* HomeEndpoint.swift in Sources */,
@@ -791,7 +779,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = franciscan.ComposeMessageModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ComposeMessageModule/Libraries/JukeBox/ComposeMessageModule-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ComposeMessageModule/Libraries/AZSoundManager/ComposeMessageModule-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -814,7 +802,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = franciscan.ComposeMessageModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "ComposeMessageModule/Libraries/JukeBox/ComposeMessageModule-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "ComposeMessageModule/Libraries/AZSoundManager/ComposeMessageModule-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
